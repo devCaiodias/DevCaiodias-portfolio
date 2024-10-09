@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevCaio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Permanent+Marker&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- NavBar -->
+    <header class="header">
+        <a href="#home" class="logo">DEV<span>CAIODIAS!</span></a>
+
+        <i class='bx bx-menu' id="menu-icon" onclick="clickiMenu()"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+
+    <!-- Home -->
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, it's <span>Caio Dias</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Atualmente tenho 18 anos e estou cursando Engenharia de Software na faculdade da <span>FIAP</span>. Tive meu primeiro contato com programação em meados de 2022 para criar sites e automatizar minhas tarefas e com isso aprendi bastante a área do <span>front-end</span> e <span>back-end</span>. E com isso carrego muito conhecimento desde então, principalmente na área Full Stack.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/caio-dias-martins-26739b251/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/devyuta/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/devCaiodias" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="https://www.linkedin.com/in/caio-dias-martins-26739b251/" class="btn">Contratar</a>
+                <a href="#contato" class="btn">Contato</a>
+            </div>
+        </div>
+            
+            <div class="home-img">
+                <img src="img/Design sem nome.png" alt="Minha foto">
+            </div>
+    </section>
+
+    <!-- Tecnologia -->
+    <section class="tecnologias" id="tecnologias">
+        <div class="main-text">
+            <span>I use these</span>
+            <h2><span class="contentfont">Technologies</span></h2>
+        </div>
+
+        <div class="timeline-items">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">Font-end</div>
+                        <div class="timeline-content">
+                            <h3>HTML / CSS / JS / REACT / VUE </h3>
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-javascript'></i>
+                            <i class='bx bxl-react'></i>
+                            <i class='bx bxl-vuejs'></i>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Back-end</div>
+                        <div class="timeline-content">
+                            <h3>JS / PY</h3>
+                            <i class='bx bxl-javascript'></i>
+                            <i class='bx bxl-python'></i>
+                        </div>
+                    </div>
+        </div>
+    </section>
+    
+    <section id="projetos" class="projeto">
+        <div class="main-text">
+            <span>My experience in</span>
+            <h2><span class="contentfont">Projects</span></h2>
+        </div>
+
+        <div class="container">
+
+            <div class="project-gallery">
+                <div class="port-box">
+                    <div class="port-img">
+                        <img src="img/projetoEspense.jpeg" alt="meu projeto" srcset="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Expense Tracker</h3>
+                        <p>Projeto rastreador de despesas, Tipo um app de um banco que coloca seu dinheiro ali dentro e ver o tanto de despesas que
+                        vc fez em comprar coisa materias, e mostra o saldo que vc tem na sua conta.</p>
+                        <a href="https://github.com/devCaiodias/Despesa-Rastreador"><i class='bx bxl-github'></i></a>
+                        <div id="tecnologiaProjet">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-javascript'></i>
+                            <i class='bx bxl-vuejs'></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="port-box">
+                    <div class="port-img">
+                        <img src="img/projetomovie.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Movies Lib</h3>
+                        <p>Um site de filme que eu criei usando a api do site (TMDB) para ver qual é os melhores filmes do momento e os detalhes
+                        dos filmes e quanto foi gasto</p>
+                        <a href="https://github.com/devCaiodias/Movies-Lib"><i class='bx bxl-github'></i></a>
+                        <div id="tecnologiaProjet">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-javascript'></i>
+                            <i class='bx bxl-react'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/caio-dias-martins-26739b251/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/devyuta/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/devCaiodias" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        
+        <ul class="list">
+            <li>
+                <a href="#home" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#tecnologias">Tecnologias</a>
+            </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+        </ul>
+        
+        <p class="copyright">
+            <i class='bx bx-copyright'></i> <span>Caio Dias Martins!</span>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
