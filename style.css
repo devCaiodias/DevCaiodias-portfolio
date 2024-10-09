@@ -506,39 +506,6 @@ span {
     font-family: "Sixtyfour Convergence";
 }
 
-.contato form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 5rem auto;
-    text-align: center;
-}
-
-.contato form .input-box{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-}
-
-.contato form .input-box input,
-.contato form div textarea {
-    width: 100%;
-    padding: 2.8rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background: var(--bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main3);
-    box-shadow: 0 0 15px var(--main3);
-    margin: 1.5rem 0;
-    resize: none;
-}
-
-.contato form .btn {
-    margin-top: 2rem;
-}
-
 .footer {
     position: relative;
     bottom: 0;
