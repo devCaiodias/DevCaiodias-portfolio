@@ -426,9 +426,8 @@ span {
 }
 
 .port-img img {
-    width: 100%;
+    width: 350px;
     opacity: .5s;
-    height: 100%;
     transition: .5s;
 }
 
