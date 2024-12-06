@@ -192,9 +192,8 @@ span {
 }
 
 .btn-group {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .text-animation{
