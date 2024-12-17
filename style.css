@@ -398,36 +398,39 @@ span {
 
 .project-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fill , minmax(250px, 1fr));
     gap: 2rem;
 }
 
 .port-box {
-    width: 100%;
-    height: 90%;
+    width: 90%;
+    height: 70%;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
     background: #3a3939;
     display: flex;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: .5fr auto;
     align-items: center;
     border: 2px solid var(--main2);
     box-shadow: var(--main3);
 }
 
 .port-img {
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 
 .port-img img {
     width: 100%;
-    opacity: .5s;
     height: 100%;
+    opacity: .5s;
     transition: .5s;
 }
 
