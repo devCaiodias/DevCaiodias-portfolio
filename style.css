@@ -366,8 +366,8 @@ span {
     text-align: center;
 }
 
-.timeline-content i {
-    justify-content: center;
+.timeline-content img {
+    margin-top: 20px;
     font-size: 80px;
     
 }
@@ -398,13 +398,13 @@ span {
 
 .project-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
 }
 
 .port-box {
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 110%;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
@@ -460,6 +460,7 @@ span {
 }
 
 .port-content h3 {
+    margin-top: 5px;
     font-size: 2rem;
     font-weight: 600;
     color: #f8b12c;
@@ -478,8 +479,9 @@ span {
     align-items: center;
     width: 50px;
     height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 2px solid var(--main3);
-    outline: 2px solid var(--main3);
 }
 
 .port-content a i {
@@ -493,6 +495,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 10px;
 }
 
 .port-content #tecnologiaProjet i {
