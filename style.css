@@ -403,7 +403,7 @@ span {
     overflow: hidden;
     background: #3a3939;
     display: flex;
-    grid-template-columns: .5fr auto;
+    grid-template-columns: 1fr auto;
     align-items: center;
     border: 2px solid var(--main2);
     box-shadow: var(--main3);
@@ -672,7 +672,7 @@ span {
    
 }
 
-@media(max-width:400px) {
+@media(max-width:500px) {
     .footer .copyright {
         margin-bottom: auto;
    }
@@ -681,6 +681,12 @@ span {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+
+    }
+
+    .project-gallery {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20px;
     }
 
     .port-img {
@@ -714,6 +720,7 @@ span {
         transition: 0.5s;
         padding: 0 2rem;
     }
+
     
     .port-box:hover .port-content{
         opacity: 1;
